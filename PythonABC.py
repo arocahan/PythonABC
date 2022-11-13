@@ -24,7 +24,14 @@ bikes. append('giant')
 numbers = []
 
 for number in range (1, 10):
-    numbers.append(number**2)
+    numbers.append(number)
 
 for number in numbers:
     print(number)
+
+squares = [x**2 for x in range (1, 11)]
+for x in squares:
+    print(x)
+
+
+
